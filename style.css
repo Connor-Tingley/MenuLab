@@ -1,4 +1,5 @@
 body{
+	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
 	background-image: url("images/back.png");
 }
@@ -13,11 +14,11 @@ h1{
 	top: 0;
 	left: 0;
 	width: 100%;
-	height:150px;
-	background-color:rgba(255, 255, 255, 0.85);
+	height:120px;
+	background-color: rgb(246, 255, 237);
 	border-bottom: solid;
 	border-width: 25px;
-	border-color: rgba(0,0,0,0.85);
+	border-color: rgb(38,38,38);
 	z-index: 1000;
 	font-family: 'Poller One', cursive;
 }
@@ -28,7 +29,7 @@ h1{
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
-	font-size: 400%;
+	font-size: 300%;
 	vertical-align: center;
 	color: #640d5a;
 }
@@ -42,9 +43,12 @@ h1{
 .menu{
 	position: relative;
 	padding-top: 25px;
-	top: 175px;
+	top: 145px;
 	left: 15%;
 	width: 70%;
+	border: solid;
+	border-width: 25px;
+	border-color: rgb(38,38,38);
 	background-color: rgb(246, 255, 237);
 	padding-bottom: 65px;
 	margin-bottom: 65px;
