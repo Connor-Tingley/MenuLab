@@ -1,0 +1,85 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-image: url("images/back.png");
+}
+h1{
+	font-size: 250%;
+}
+.section table{
+	width: 100%
+}
+.titleBlock{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:150px;
+	background-color:rgba(255, 255, 255, 0.85);
+	border-bottom: solid;
+	border-width: 25px;
+	border-color: rgba(0,0,0,0.85);
+	z-index: 1000;
+	font-family: 'Poller One', cursive;
+}
+.titleText{
+	position: relative;
+	top: -18%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 400%;
+	vertical-align: center;
+	color: #640d5a;
+}
+.spacer{
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	left: 0;
+	width: 100%;
+}
+.menu{
+	position: relative;
+	padding-top: 25px;
+	top: 175px;
+	left: 15%;
+	width: 70%;
+	background-color: rgb(246, 255, 237);
+	padding-bottom: 65px;
+	margin-bottom: 65px;
+}
+.section{
+	position: relative;
+	top: 20px;
+	left: 15%;
+	width: 70%;
+}
+#signatures h1{
+	color:rgb(240, 95, 47);
+	font-family: 'Poller One', cursive;
+}
+#signatures h2{
+	color:rgb(245, 130, 32);
+	font-family: 'Poller One', cursive;
+}
+#favorites h1{
+	color: #2D4197;
+	font-family: 'Poller One', cursive;
+}
+#favorites h2{
+	color: #1390C8;
+	font-family: 'Poller One', cursive;
+}
+#ensaladas h1{
+	color: #92C63E;
+	font-family: 'Poller One', cursive;
+}
+#ensaladas h2{
+	color: #1A5245;
+	font-family: 'Poller One', cursive;
+}
+#drinks h1{
+	color: #640d5a;
+	font-family: 'Poller One', cursive;
+}
